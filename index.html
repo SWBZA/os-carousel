@@ -235,56 +235,123 @@
 <body>
 
 <div class="carousel" id="carousel">
-    <!-- Screen 1: Core Anchor -->
-    <section class="card">
-        <div class="card-header" style="background: var(--header-bg); padding: 2rem 1rem;">
-            <div style="text-align: center; width: 100%;">
-                <div style="font-size: 0.8rem; opacity: 0.8;">OPERATING SYSTEM</div>
-                <div style="font-size: 2rem; letter-spacing: 0.1em;">V1.1</div>
+    <!-- Screen 1: Core Anchor (Stunning Splash) -->
+    <section class="card" style="background: #050a0f; color: white;">
+        <div class="card-content" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 2rem; gap: 2.5rem;">
+            
+            <!-- Title Section -->
+            <div style="display: flex; align-items: center; gap: 1.5rem;">
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 4px; opacity: 0.4;">
+                    <div style="width: 30px; height: 4px; background: white;"></div>
+                    <div style="width: 20px; height: 4px; background: white;"></div>
+                    <div style="width: 10px; height: 4px; background: white;"></div>
+                </div>
+                
+                <h1 style="font-size: 2.2rem; font-weight: 900; letter-spacing: -0.02em; margin: 0; white-space: nowrap;">
+                    OPERATING SYSTEM <span style="font-weight: 300; opacity: 0.9;">v1.1</span>
+                </h1>
+
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 4px; opacity: 0.4;">
+                    <div style="width: 30px; height: 4px; background: white;"></div>
+                    <div style="width: 20px; height: 4px; background: white;"></div>
+                    <div style="width: 10px; height: 4px; background: white;"></div>
+                </div>
             </div>
-        </div>
-        <div class="hero-text">
-            Truth is <span>preserved privately</span>, signals are <span>managed publicly</span>, influence is <span>inserted deliberately</span>, stability is <span>surfaced</span> before it becomes liability.
-        </div>
-        <div class="card-content" style="justify-content: center; align-items: center; background: #0d1b2a; color: white;">
-             <div style="text-align: center; opacity: 0.6; font-size: 0.9rem;">
+
+            <!-- Core Mental Model Subtitle -->
+            <div style="font-size: 1.15rem; line-height: 1.6; max-width: 90%; font-weight: 500;">
+                Truth is <span style="color: #FFB703;">preserved</span> privately, 
+                signals are <span style="color: #2ECC71;">managed publicly</span>, 
+                influence is <span style="color: #FF595E;">inserted deliberately</span>, 
+                stability is <span style="color: #3498DB;">surfaced</span> before it becomes liability.
+            </div>
+
+            <!-- Footer Motto -->
+            <div style="margin-top: 1rem; padding: 1.2rem; background: rgba(255,255,255,0.03); border-radius: 12px; border: 1px solid rgba(255,255,255,0.05); width: 100%;">
+                <div style="display: flex; align-items: center; justify-content: center; gap: 0.8rem; font-size: 1rem; line-height: 1.4;">
+                    <div>
+                        Operate with <span style="color: #FFB703;">patience</span>. 
+                        Influence with <span style="color: #FF595E;">precision</span>. 
+                        Leave things <span style="color: #2ECC71;">better</span> than you found them.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interaction Hint -->
+            <div style="margin-top: 2rem; opacity: 0.4; font-size: 0.9rem; animation: pulse 2s infinite;">
                 <p>Swipe to Begin Protocol</p>
-                <div style="margin-top: 1rem; font-size: 1.5rem;">→</div>
-             </div>
+                <div style="margin-top: 0.5rem; font-size: 1.5rem;">→</div>
+            </div>
         </div>
     </section>
 
+    <style>
+        @keyframes pulse {
+            0% { opacity: 0.2; transform: translateY(0); }
+            50% { opacity: 0.5; transform: translateY(5px); }
+            100% { opacity: 0.2; transform: translateY(0); }
+        }
+    </style>
+
     <!-- Screen 2: Signal Control -->
     <section class="card" style="--title-color: var(--color-1);">
-        <div class="card-header" style="background: var(--color-1);">
-            <i>🛡️</i> 1. SIGNAL CONTROL
+        <div class="card-header" style="background: var(--color-1); display: flex; flex-direction: column; align-items: flex-start; padding: 0.8rem 1.2rem;">
+            <div style="display: flex; align-items: center; gap: 0.8rem; width: 100%;">
+                <i style="background: none; font-size: 1.8rem; width: auto; height: auto;">🛡️</i>
+                <div style="display: flex; flex-direction: column;">
+                    <span style="font-size: 1.1rem; line-height: 1.1;">1. SIGNAL CONTROL</span>
+                    <span style="font-size: 0.75rem; opacity: 0.9; font-weight: normal; margin-top: 0.1rem;">(PUBLIC BEHAVIOR)</span>
+                </div>
+            </div>
         </div>
-        <div class="card-content">
-            <div class="section-title">Franklin Protocol</div>
-            <div class="protocol-box">
-                <div class="list-item"><span class="check">✓</span> Align with hierarchy</div>
-                <div class="list-item"><span class="check">✓</span> Project stability</div>
-                <div class="list-item"><span class="check">✓</span> Do not challenge in public</div>
+        <div class="card-content" style="gap: 1.2rem; padding: 1.2rem;">
+            <!-- Franklin Protocol -->
+            <div>
+                <div class="section-title" style="border: none; margin-bottom: 0.6rem; color: var(--color-1); font-weight: 800; font-size: 1rem;">FRANKLIN PROTOCOL</div>
+                <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                    <div class="list-item" style="font-size: 1rem;"><span style="color: var(--color-1); font-size: 1.2rem; margin-right: 0.5rem;">☑</span> Align with hierarchy</div>
+                    <div class="list-item" style="font-size: 1rem;"><span style="color: var(--color-1); font-size: 1.2rem; margin-right: 0.5rem;">☑</span> Project stability</div>
+                    <div class="list-item" style="font-size: 1rem;"><span style="color: var(--color-1); font-size: 1.2rem; margin-right: 0.5rem;">☑</span> Do not challenge in public</div>
+                </div>
             </div>
 
-            <div class="section-title">"Why" Rule</div>
-            <div class="protocol-box" style="background: #f0fff4;">
-                <p style="font-weight: bold; margin-bottom: 0.5rem;">Never ask "Why" in execution forums.</p>
-                <div style="font-size: 0.85rem; color: #666;">Use instead:</div>
-                <div class="list-item"><span>•</span> How do we approach this?</div>
-                <div class="list-item"><span>•</span> What timeline works?</div>
-                <div class="list-item"><span>•</span> What does success look like?</div>
+            <hr style="border: none; border-top: 1px solid #eee;">
+
+            <!-- "Why" Rule -->
+            <div style="display: flex; gap: 1rem; align-items: flex-start;">
+                <div style="min-width: 2.5rem; height: 2.5rem; background: var(--color-1); border-radius: 8px; display: flex; align-items: center; justify-content: center; position: relative;">
+                    <span style="color: white; font-size: 1.4rem; font-weight: bold;">?</span>
+                    <div style="position: absolute; bottom: -6px; left: 6px; width: 12px; height: 12px; background: var(--color-1); clip-path: polygon(0 0, 100% 0, 0 100%);"></div>
+                </div>
+                <div style="flex: 1;">
+                    <div class="section-title" style="border: none; margin: 0 0 0.4rem 0; color: var(--color-1); font-weight: 800; font-size: 1rem;">"WHY" RULE</div>
+                    <div style="font-size: 0.95rem; margin-bottom: 0.6rem; line-height: 1.3;">Never ask "Why" in execution forums.</div>
+                    <div style="font-size: 0.85rem; font-weight: bold; margin-bottom: 0.3rem;">Use instead:</div>
+                    <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.9rem; line-height: 1.4;">
+                        <li>How do we approach this?</li>
+                        <li>What timeline works?</li>
+                        <li>What does success look like?</li>
+                    </ul>
+                </div>
             </div>
 
-            <div class="section-title">No-Why Zone Detection</div>
-            <div class="list-item" style="margin-bottom: 0.2rem;"><span>🎯</span> <strong>Trigger when:</strong></div>
-            <div style="padding-left: 1.6rem;">
-                <div class="list-item" style="font-size: 0.85rem; margin-bottom: 0.2rem;"><span>•</span> Conclusions without reasoning</div>
-                <div class="list-item" style="font-size: 0.85rem; margin-bottom: 0.2rem;"><span>•</span> High urgency, low clarity</div>
-                <div class="list-item" style="font-size: 0.85rem; margin-bottom: 0.2rem;"><span>•</span> Directive tone</div>
-            </div>
-            <div style="font-weight: bold; text-align: left; color: var(--color-1); margin-top: 0.5rem;">
-                Respond with structure, not analysis
+            <hr style="border: none; border-top: 1px solid #eee;">
+
+            <!-- No-Why Zone -->
+            <div style="display: flex; gap: 1rem; align-items: flex-start;">
+                <span style="font-size: 2.5rem;">🎯</span>
+                <div style="flex: 1;">
+                    <div class="section-title" style="border: none; margin: 0 0 0.4rem 0; color: var(--color-1); font-weight: 800; font-size: 1rem;">NO-WHY ZONE DETECTION</div>
+                    <div style="font-size: 0.85rem; font-weight: bold; margin-bottom: 0.3rem;">Trigger when:</div>
+                    <ul style="margin: 0; padding-left: 1.2rem; font-size: 0.9rem; line-height: 1.4; margin-bottom: 1rem;">
+                        <li>Conclusions without reasoning</li>
+                        <li>High urgency, low clarity</li>
+                        <li>Directive tone</li>
+                    </ul>
+                    <div style="font-weight: 800; font-size: 1rem; color: #000;">
+                        → Respond with structure, not analysis
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -435,27 +502,69 @@
         <div class="card-header" style="background: var(--color-4);">
             <i>⚖️</i> 4. INCENTIVE AWARENESS
         </div>
-        <div class="card-content">
-            <div class="section-title">Lucas Protocol</div>
-            <div style="display: flex; justify-content: space-around; margin: 0.5rem 0;">
-                <div style="text-align: center;"><div style="color: #2d5a27; font-size: 1.2rem;">●</div><div style="font-size: 0.7rem; font-weight: bold;">GREEN<br>PUBLIC</div></div>
-                <div style="text-align: center;"><div style="color: #c53030; font-size: 1.2rem;">●</div><div style="font-size: 0.7rem; font-weight: bold;">RED<br>PRIVATE</div></div>
-            </div>
-
-            <div class="section-title">Reintegration Rule</div>
-            <div class="protocol-box">
-                <p style="font-size: 0.85rem; font-weight: bold;">Explain fix in < 2 mins or SURFACE IT.</p>
-                <div style="margin-top: 0.4rem; font-size: 0.8rem; color: #555;">
-                    "Workaround" → <strong>Interim Control</strong><br>
-                    "Fix" → <strong>Stabilization Step</strong>
+        <div class="card-content" style="gap: 1.2rem; padding: 1.2rem;">
+            <!-- Lucas Protocol -->
+            <div>
+                <div class="section-title" style="border: none; margin-bottom: 0.4rem;">LUCAS PROTOCOL</div>
+                <div style="font-size: 1rem; margin-bottom: 0.8rem;">If metrics &gt; reality:</div>
+                <div class="list-item" style="align-items: center; margin-bottom: 0.6rem;">
+                    <span style="color: #2e7d32; font-size: 1.4rem; line-height: 1;">●</span>
+                    <span>Show <strong style="color: #2e7d32;">"Green"</strong> publicly</span>
+                </div>
+                <div class="list-item" style="align-items: center;">
+                    <span style="color: #d32f2f; font-size: 1.4rem; line-height: 1;">●</span>
+                    <span>Build <strong style="color: #d32f2f;">"Red"</strong> privately</span>
                 </div>
             </div>
 
-            <div class="watermelon">
-                <span style="font-size: 1.5rem;">🍉</span>
-                <div style="font-size: 0.8rem;">
-                    <strong>Watermelon Detection</strong><br>
-                    Do not expose directly. Fix + surface gradually.
+            <hr style="border: none; border-top: 1px solid #ddd; margin: 0.2rem 0;">
+
+            <!-- Reintegration Rule -->
+            <div style="display: flex; gap: 1rem; align-items: flex-start;">
+                <div style="background: none; padding: 0; display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; flex-shrink: 0;">
+                    <span style="font-size: 2.2rem;">🔄</span>
+                </div>
+                <div style="flex: 1;">
+                    <div class="section-title" style="border: none; margin: 0 0 0.5rem 0;">REINTEGRATION RULE</div>
+                    <div style="font-size: 0.95rem; margin-bottom: 0.8rem; line-height: 1.3;">
+                        If you cannot explain the fix in 2 minutes &rarr; surface it
+                    </div>
+                    
+                    <div style="font-size: 0.9rem; margin-bottom: 0.4rem;">Reframe:</div>
+                    <div class="list-item" style="margin-bottom: 0.3rem;">
+                        <span>&bull;</span>
+                        <span>"Workaround" &rarr; "Interim control"</span>
+                    </div>
+                    <div class="list-item" style="margin-bottom: 0.8rem;">
+                        <span>&bull;</span>
+                        <span>"Fix" &rarr; "Stabilization step"</span>
+                    </div>
+
+                    <div style="font-size: 0.9rem; margin-bottom: 0.3rem;">Goal:</div>
+                    <div style="font-size: 0.95rem; line-height: 1.3;">
+                        &rarr; Transfer from personal &rarr; system ownership
+                    </div>
+                </div>
+            </div>
+
+            <hr style="border: none; border-top: 1px solid #ddd; margin: 0.2rem 0;">
+
+            <!-- Watermelon Detection -->
+            <div style="display: flex; gap: 1rem; align-items: flex-start;">
+                <div style="width: 40px; text-align: center; flex-shrink: 0;">
+                    <span style="font-size: 2.2rem;">🍉</span>
+                </div>
+                <div style="flex: 1;">
+                    <div class="section-title" style="border: none; margin: 0 0 0.4rem 0;">WATERMELON DETECTION</div>
+                    <div style="font-size: 0.95rem; margin-bottom: 0.6rem;">Green outside, red inside</div>
+                    <div class="list-item" style="margin-bottom: 0.3rem;">
+                        <span>&bull;</span>
+                        <span>Do not expose directly</span>
+                    </div>
+                    <div class="list-item">
+                        <span>&bull;</span>
+                        <span>Fix + surface gradually</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -463,30 +572,101 @@
 
     <!-- Screen 6: Strategic Influence -->
     <section class="card" style="--title-color: var(--color-5);">
-        <div class="card-header" style="background: var(--color-5);">
-            <i>🎯</i> 5. STRATEGIC INFLUENCE
-        </div>
-        <div class="card-content" style="gap: 0.5rem;">
-            <div class="section-title">Only Act if all 3</div>
-            <div class="step-path">
-                <div class="step-node"><div class="step-num">1</div><strong>TIMING:</strong> Instability or Asked</div>
-                <div class="step-node"><div class="step-num">2</div><strong>TRANSLATION:</strong> Risk, Cost, Time</div>
-                <div class="step-node"><div class="step-num">3</div><strong>COVER:</strong> Data / Constraints</div>
-            </div>
-
-            <div class="section-title">If Challenged</div>
-            <div class="step-path">
-                <div class="step-node"><div class="step-num">1</div>Translate risk</div>
-                <div class="step-node"><div class="step-num">2</div>Confirm consequence</div>
-                <div class="step-node"><div class="step-num">3</div>Document → Execute</div>
-            </div>
-
-            <div style="display: flex; gap: 0.5rem; margin-top: 0.5rem;">
-                <div style="flex: 1; background: #fff5f5; padding: 0.4rem; border-radius: 4px; border: 1px solid #feb2b2; font-size: 0.7rem;">
-                    <strong>AVOID:</strong> Correcting too early/visibly.
+        <div class="card-header" style="background: var(--color-5); display: flex; flex-direction: column; align-items: flex-start; padding: 0.8rem 1.2rem;">
+            <div style="display: flex; align-items: center; gap: 0.8rem; width: 100%;">
+                <i style="background: none; font-size: 1.8rem; width: auto; height: auto;">🎯</i>
+                <div style="display: flex; flex-direction: column;">
+                    <span style="font-size: 1.1rem; line-height: 1.1;">5. STRATEGIC INFLUENCE</span>
+                    <span style="font-size: 0.75rem; opacity: 0.9; font-weight: normal; margin-top: 0.1rem;">(INSERTION PROTOCOL)</span>
                 </div>
-                <div style="flex: 1; background: #f0fff4; padding: 0.4rem; border-radius: 4px; border: 1px solid #9ae6b4; font-size: 0.7rem;">
-                    <strong>THRESHOLD:</strong> Legal/Ethical/Reputation.
+            </div>
+        </div>
+        <div class="card-content" style="gap: 0.7rem; padding: 1rem 1.2rem;">
+            <!-- Only Act If All 3 -->
+            <div>
+                <div class="section-title" style="border: none; color: #006d77; text-align: center; margin-bottom: 0.8rem;">ONLY ACT IF ALL 3</div>
+                <div class="step-path" style="gap: 0.8rem;">
+                    <div class="step-node" style="border: none; padding: 0 0 0 1rem; background: transparent;">
+                        <div class="step-num" style="left: -1.8rem; width: 1.6rem; height: 1.6rem; background: #2d5a27; font-size: 0.9rem;">1</div>
+                        <div style="display: flex; align-items: flex-start; gap: 0.8rem;">
+                            <span style="font-size: 1.5rem;">⌛</span>
+                            <div>
+                                <div style="font-weight: 800; color: #006d77; font-size: 0.85rem; text-transform: uppercase;">TIMING</div>
+                                <div style="font-size: 0.9rem;">Instability OR asked for input</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-node" style="border: none; padding: 0 0 0 1rem; background: transparent;">
+                        <div class="step-num" style="left: -1.8rem; width: 1.6rem; height: 1.6rem; background: #2d5a27; font-size: 0.9rem;">2</div>
+                        <div style="display: flex; align-items: flex-start; gap: 0.8rem;">
+                            <span style="font-size: 1.5rem;">💬</span>
+                            <div>
+                                <div style="font-weight: 800; color: #006d77; font-size: 0.85rem; text-transform: uppercase;">TRANSLATION</div>
+                                <div style="font-size: 0.9rem;">Use system language: risk, cost, timeline</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-node" style="border: none; padding: 0 0 0 1rem; background: transparent;">
+                        <div class="step-num" style="left: -1.8rem; width: 1.6rem; height: 1.6rem; background: #2d5a27; font-size: 0.9rem;">3</div>
+                        <div style="display: flex; align-items: flex-start; gap: 0.8rem;">
+                            <span style="font-size: 1.5rem;">🛡️</span>
+                            <div>
+                                <div style="font-weight: 800; color: #006d77; font-size: 0.85rem; text-transform: uppercase;">COVER</div>
+                                <div style="font-size: 0.9rem;">Not personal opinion. Use data / constraints</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="border: none; border-top: 1px solid #ddd; margin: 0.3rem 0;">
+
+            <!-- If Challenged -->
+            <div>
+                <div class="section-title" style="border: none; color: #006d77; text-align: center; margin-bottom: 0.8rem;">IF CHALLENGED (ESCALATION)</div>
+                <div class="step-path" style="gap: 0.6rem;">
+                    <div class="step-node" style="border: none; padding: 0 0 0 1rem; background: transparent; min-height: 2.2rem;">
+                        <div class="step-num" style="left: -1.8rem; width: 1.6rem; height: 1.6rem; background: #214e7a; font-size: 0.9rem;">1</div>
+                        <div style="font-size: 0.95rem;">Translate risk</div>
+                    </div>
+                    <div class="step-node" style="border: none; padding: 0 0 0 1rem; background: transparent; min-height: 2.2rem;">
+                        <div class="step-num" style="left: -1.8rem; width: 1.6rem; height: 1.6rem; background: #214e7a; font-size: 0.9rem;">2</div>
+                        <div style="font-size: 0.95rem;">Confirm consequence: "We are accepting [impact]?"</div>
+                    </div>
+                    <div class="step-node" style="border: none; padding: 0 0 0 1rem; background: transparent; min-height: 2.2rem;">
+                        <div class="step-num" style="left: -1.8rem; width: 1.6rem; height: 1.6rem; background: #214e7a; font-size: 0.9rem;">3</div>
+                        <div style="font-size: 0.95rem;">If approved: Document &rarr; Execute</div>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="border: none; border-top: 1px solid #ddd; margin: 0.3rem 0;">
+
+            <!-- Avoid & Threshold -->
+            <div style="display: flex; gap: 0.8rem; align-items: stretch;">
+                <div style="flex: 1; border-right: 1px solid #ddd; padding-right: 0.8rem;">
+                    <div style="display: flex; align-items: center; gap: 0.4rem; margin-bottom: 0.6rem;">
+                        <span style="font-size: 1.4rem;">⚠️</span>
+                        <span style="font-weight: 800; color: #c53030; font-size: 0.85rem;">AVOID</span>
+                    </div>
+                    <div style="font-size: 0.85rem; line-height: 1.3;">Being correct too early, too directly, too visibly</div>
+                </div>
+                <div style="flex: 1.2;">
+                    <div style="font-weight: 800; color: #006d77; font-size: 0.75rem; text-align: center; margin-bottom: 0.6rem; text-transform: uppercase;">WALK-AWAY THRESHOLD</div>
+                    <div style="display: flex; justify-content: space-between; text-align: center; gap: 0.2rem;">
+                        <div style="flex: 1;">
+                            <div style="font-size: 1.2rem;">⚖️</div>
+                            <div style="font-size: 0.65rem; font-weight: bold; line-height: 1.1;">Legal<br>Risk</div>
+                        </div>
+                        <div style="flex: 1;">
+                            <div style="font-size: 1.2rem;">❗</div>
+                            <div style="font-size: 0.65rem; font-weight: bold; line-height: 1.1;">Ethical<br>Breach</div>
+                        </div>
+                        <div style="flex: 1;">
+                            <div style="font-size: 1.2rem;">👤</div>
+                            <div style="font-size: 0.65rem; font-weight: bold; line-height: 1.1;">Reputational<br>Damage</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -494,26 +674,67 @@
 
     <!-- Screen 7: Visibility Layer -->
     <section class="card" style="--title-color: var(--color-6);">
-        <div class="card-header" style="background: var(--color-6);">
-            <i>👁️</i> 6. VISIBILITY LAYER
+        <div class="card-header" style="background: var(--color-6); display: flex; flex-direction: column; align-items: flex-start; padding: 0.8rem 1.2rem;">
+            <div style="display: flex; align-items: center; gap: 0.8rem; width: 100%;">
+                <i style="background: none; font-size: 1.8rem; width: auto; height: auto;">👁️</i>
+                <div style="display: flex; flex-direction: column;">
+                    <span style="font-size: 1.1rem; line-height: 1.1;">6. VISIBILITY LAYER</span>
+                    <span style="font-size: 0.75rem; opacity: 0.9; font-weight: normal; margin-top: 0.1rem;">(MAKE VALUE LEGIBLE)</span>
+                </div>
+            </div>
         </div>
-        <div class="card-content">
-            <div style="text-align: center; font-weight: bold; font-size: 0.9rem; color: var(--color-6);">Prevention must be visible</div>
+        <div class="card-content" style="gap: 0.4rem; padding: 1.2rem;">
+            <div style="text-align: center; font-weight: 800; font-size: 0.9rem; color: #1d3557; margin-bottom: 0.5rem; text-transform: uppercase;">RULE: Prevention must be visible</div>
             
-            <div class="step-path" style="margin-top: 1rem;">
-                <div class="step-node"><strong>BEFORE:</strong> "Key risks: A, B, C"</div>
-                <div class="step-node"><strong>DURING:</strong> "Risk contained, no impact"</div>
-                <div class="step-node"><strong>AFTER:</strong> "Avoided X by doing Y"</div>
+            <!-- Process Boxes -->
+            <div style="display: flex; flex-direction: column; align-items: center; gap: 0.3rem;">
+                <!-- BEFORE -->
+                <div style="width: 100%; border: 1px solid #1d3557; border-radius: 12px; padding: 0.8rem; display: flex; align-items: center; gap: 1rem; background: white;">
+                    <span style="font-size: 2rem;">📋</span>
+                    <div>
+                        <div style="font-weight: 800; color: #1d3557; font-size: 0.95rem;">BEFORE</div>
+                        <div style="font-size: 1rem;">"Key risks: A, B, C"</div>
+                    </div>
+                </div>
+                
+                <div style="font-size: 1.2rem; color: #1d3557; line-height: 1;">↓</div>
+
+                <!-- DURING -->
+                <div style="width: 100%; border: 1px solid #1d3557; border-radius: 12px; padding: 0.8rem; display: flex; align-items: center; gap: 1rem; background: white;">
+                    <span style="font-size: 2rem;">🛡️</span>
+                    <div>
+                        <div style="font-weight: 800; color: #1d3557; font-size: 0.95rem;">DURING</div>
+                        <div style="font-size: 1rem;">"Risk contained, no impact"</div>
+                    </div>
+                </div>
+
+                <div style="font-size: 1.2rem; color: #1d3557; line-height: 1;">↓</div>
+
+                <!-- AFTER -->
+                <div style="width: 100%; border: 1px solid #1d3557; border-radius: 12px; padding: 0.8rem; display: flex; align-items: center; gap: 1rem; background: white;">
+                    <span style="font-size: 2rem;">📊</span>
+                    <div>
+                        <div style="font-weight: 800; color: #1d3557; font-size: 0.95rem;">AFTER</div>
+                        <div style="font-size: 1rem;">"Avoided X" by doing Y</div>
+                    </div>
+                </div>
             </div>
 
-            <div style="display: flex; margin-top: 1.5rem; gap: 0.5rem;">
-                <div style="flex: 1; text-align: center; padding: 0.5rem; background: #fff5f5; border-radius: 8px;">
-                    <div style="color: #c53030; font-weight: bold; font-size: 0.7rem;">NEVER SAY</div>
-                    <div style="font-size: 0.8rem;">"This would have failed"</div>
+            <hr style="border: none; border-top: 1px solid #ddd; margin: 0.8rem 0;">
+
+            <!-- Comparison Table -->
+            <div style="display: flex; gap: 0.5rem;">
+                <!-- NEVER SAY -->
+                <div style="flex: 1; border-right: 1px solid #ddd; padding-right: 0.5rem; display: flex; flex-direction: column; align-items: center; text-align: center;">
+                    <div style="background: #c53030; color: white; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; margin-bottom: 0.5rem;">✖</div>
+                    <div style="color: #c53030; font-weight: 800; font-size: 0.8rem; margin-bottom: 0.4rem; text-transform: uppercase;">NEVER SAY</div>
+                    <div style="font-size: 0.9rem; line-height: 1.2;">"This would have failed"</div>
                 </div>
-                <div style="flex: 1; text-align: center; padding: 0.5rem; background: #f0fff4; border-radius: 8px;">
-                    <div style="color: #2d5a27; font-weight: bold; font-size: 0.7rem;">ALWAYS SAY</div>
-                    <div style="font-size: 0.8rem;">"This ensured stability"</div>
+                <!-- ALWAYS SAY -->
+                <div style="flex: 1; padding-left: 0.5rem; display: flex; flex-direction: column; align-items: center; text-align: center;">
+                    <div style="background: #2e7d32; color: white; width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; margin-bottom: 0.5rem;">✔</div>
+                    <div style="color: #2e7d32; font-weight: 800; font-size: 0.8rem; margin-bottom: 0.4rem; text-transform: uppercase;">ALWAYS SAY</div>
+                    <div style="font-size: 0.9rem; line-height: 1.2;">"This ensured stability"</div>
                 </div>
             </div>
         </div>
@@ -521,73 +742,223 @@
 
     <!-- Screen 8: Identity -->
     <section class="card" style="--title-color: var(--color-7);">
-        <div class="card-header" style="background: var(--color-7);">
-            <i>👑</i> 7. IDENTITY
-        </div>
-        <div class="card-content">
-            <div class="section-title">Daniel Archetype</div>
-            <div style="display: flex; flex-direction: column; gap: 1rem; margin-top: 1rem;">
-                <div class="protocol-box" style="border-left: 4px solid #c53030;">
-                    <div style="font-weight: bold; color: #c53030; margin-bottom: 0.3rem;">DO NOT</div>
-                    <div class="list-item"><span>✖</span> Try fix system</div>
-                    <div class="list-item"><span>✖</span> Seek validation via correctness</div>
-                </div>
-                <div class="protocol-box" style="border-left: 4px solid #2d5a27;">
-                    <div style="font-weight: bold; color: #2d5a27; margin-bottom: 0.3rem;">DO</div>
-                    <div class="list-item"><span>✔</span> Route through constraints</div>
-                    <div class="list-item"><span>✔</span> Preserve private integrity</div>
-                    <div class="list-item"><span>✔</span> Prevent entropy</div>
+        <div class="card-header" style="background: var(--color-7); display: flex; flex-direction: column; align-items: flex-start; padding: 0.8rem 1.2rem;">
+            <div style="display: flex; align-items: center; gap: 0.8rem; width: 100%;">
+                <i style="background: none; font-size: 1.8rem; width: auto; height: auto;">👑</i>
+                <div style="display: flex; flex-direction: column;">
+                    <span style="font-size: 1.1rem; line-height: 1.1;">7. IDENTITY</span>
+                    <span style="font-size: 0.75rem; opacity: 0.9; font-weight: normal; margin-top: 0.1rem;">(DANIEL ARCHETYPE)</span>
                 </div>
             </div>
-            <div style="margin-top: auto; padding: 1rem; background: #f3f0ff; border-radius: 8px; text-align: center; font-style: italic; font-size: 0.85rem;">
-                "Your role is to preserve what matters."
+        </div>
+        <div class="card-content" style="gap: 1.5rem; padding: 1.5rem 1.2rem;">
+            <!-- DO NOT -->
+            <div style="display: flex; align-items: center; gap: 1.2rem;">
+                <span style="font-size: 3rem; color: #c53030; line-height: 1;">🚫</span>
+                <div>
+                    <div style="font-weight: 800; color: #5a189a; font-size: 1rem; margin-bottom: 0.4rem;">DO NOT</div>
+                    <div class="list-item" style="margin-bottom: 0.4rem; font-size: 1rem;">
+                        <span>&bull;</span>
+                        <span>Try fix system</span>
+                    </div>
+                    <div class="list-item" style="font-size: 1rem;">
+                        <span>&bull;</span>
+                        <span>Seek validation via correctness</span>
+                    </div>
+                </div>
+            </div>
+
+            <hr style="border: none; border-top: 1px solid #ddd; margin: 0.2rem 0;">
+
+            <!-- DO -->
+            <div style="display: flex; align-items: center; gap: 1.2rem;">
+                <span style="font-size: 3rem; color: #2e7d32; line-height: 1;">✅</span>
+                <div>
+                    <div style="font-weight: 800; color: #2e7d32; font-size: 1rem; margin-bottom: 0.4rem;">DO</div>
+                    <div class="list-item" style="margin-bottom: 0.4rem; font-size: 1rem;">
+                        <span>&bull;</span>
+                        <span>Route through constraints</span>
+                    </div>
+                    <div class="list-item" style="margin-bottom: 0.4rem; font-size: 1rem;">
+                        <span>&bull;</span>
+                        <span>Preserve private integrity</span>
+                    </div>
+                    <div class="list-item" style="font-size: 1rem;">
+                        <span>&bull;</span>
+                        <span>Prevent entropy</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Quote Box -->
+            <div style="padding: 1rem; background: #f3f0ff; border: 1px solid #dcd3ff; border-radius: 12px; display: flex; align-items: center; gap: 1rem;">
+                <span style="font-size: 2.5rem; color: #5a189a;">🏛️</span>
+                <div style="font-size: 1rem; color: #1a1a1a; font-weight: 500; line-height: 1.3;">
+                    Your role is not to win arguments. Your role is to preserve what matters.
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Screen 9: Daily Loop -->
     <section class="card" style="--title-color: var(--color-8);">
-        <div class="card-header" style="background: var(--color-8);">
-            <i>⚙️</i> 8. DAILY LOOP
-        </div>
-        <div class="card-content">
-            <div class="daily-loop-grid" style="margin-top: 2rem;">
-                <div class="loop-step"><div class="loop-icon">1</div>OBSERVE</div>
-                <div class="loop-step"><div class="loop-icon">2</div>ALIGN</div>
-                <div class="loop-step"><div class="loop-icon">3</div>ROUTE</div>
-                <div class="loop-step"><div class="loop-icon">4</div>LOG</div>
-                <div class="loop-step" style="grid-column: 1 / 3; margin-top: 1.5rem;"><div class="loop-icon">5</div>INSERT</div>
-                <div class="loop-step" style="grid-column: 3 / 5; margin-top: 1.5rem;"><div class="loop-icon">6</div>SURFACE</div>
-                <div class="loop-step" style="grid-column: 1 / 5; margin-top: 1.5rem;"><div class="loop-icon">7</div>EXIT (RESET)</div>
+        <div class="card-header" style="background: var(--color-8); display: flex; flex-direction: column; align-items: flex-start; padding: 0.8rem 1.2rem;">
+            <div style="display: flex; align-items: center; gap: 0.8rem; width: 100%;">
+                <i style="background: none; font-size: 1.8rem; width: auto; height: auto;">⚙️</i>
+                <div style="display: flex; flex-direction: column;">
+                    <span style="font-size: 1.1rem; line-height: 1.1;">8. DAILY LOOP</span>
+                    <span style="font-size: 0.75rem; opacity: 0.9; font-weight: normal; margin-top: 0.1rem;">(SYSTEM EXECUTION)</span>
+                </div>
             </div>
-            
-            <div style="margin-top: auto; padding: 1rem; background: #0d1b2a; color: #f39c12; border-radius: 8px; text-align: center; font-weight: bold; font-size: 0.85rem;">
-                Patience. Precision. Better.
+        </div>
+        <div class="card-content" style="padding: 0.8rem 1.2rem; display: flex; flex-direction: column; align-items: flex-start; justify-content: space-between; gap: 0;">
+            <!-- Step 1 -->
+            <div style="display: flex; align-items: center; gap: 1rem; width: 100%;">
+                <div style="display: flex; flex-direction: column; align-items: center; min-width: 3rem;">
+                    <span style="font-size: 0.7rem; font-weight: bold; margin-bottom: 0.1rem;">1</span>
+                    <div style="width: 2.2rem; height: 2.2rem; border: 1.5px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem;">🔭</div>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <div style="font-weight: 800; font-size: 1rem; line-height: 1;">OBSERVE</div>
+                    <div style="font-size: 0.75rem; color: #666;">(signals, power)</div>
+                </div>
+            </div>
+
+            <div style="font-size: 1.2rem; line-height: 0.8; color: #000; font-weight: 900; margin: 0.1rem 0; width: 3rem; text-align: center;">↓</div>
+
+            <!-- Step 2 -->
+            <div style="display: flex; align-items: center; gap: 1rem; width: 100%;">
+                <div style="display: flex; flex-direction: column; align-items: center; min-width: 3rem;">
+                    <span style="font-size: 0.7rem; font-weight: bold; margin-bottom: 0.1rem;">2</span>
+                    <div style="width: 2.2rem; height: 2.2rem; border: 1.5px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem;">👥</div>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <div style="font-weight: 800; font-size: 1rem; line-height: 1;">ALIGN</div>
+                    <div style="font-size: 0.75rem; color: #666;">(public)</div>
+                </div>
+            </div>
+
+            <div style="font-size: 1.2rem; line-height: 0.8; color: #000; font-weight: 900; margin: 0.1rem 0; width: 3rem; text-align: center;">↓</div>
+
+            <!-- Step 3 -->
+            <div style="display: flex; align-items: center; gap: 1rem; width: 100%;">
+                <div style="display: flex; flex-direction: column; align-items: center; min-width: 3rem;">
+                    <span style="font-size: 0.7rem; font-weight: bold; margin-bottom: 0.1rem;">3</span>
+                    <div style="width: 2.2rem; height: 2.2rem; border: 1.5px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem;">🕸️</div>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <div style="font-weight: 800; font-size: 1rem; line-height: 1;">ROUTE</div>
+                    <div style="font-size: 0.75rem; color: #666;">(friction)</div>
+                </div>
+            </div>
+
+            <div style="font-size: 1.2rem; line-height: 0.8; color: #000; font-weight: 900; margin: 0.1rem 0; width: 3rem; text-align: center;">↓</div>
+
+            <!-- Step 4 -->
+            <div style="display: flex; align-items: center; gap: 1rem; width: 100%;">
+                <div style="display: flex; flex-direction: column; align-items: center; min-width: 3rem;">
+                    <span style="font-size: 0.7rem; font-weight: bold; margin-bottom: 0.1rem;">4</span>
+                    <div style="width: 2.2rem; height: 2.2rem; border: 1.5px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem;">📓</div>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <div style="font-weight: 800; font-size: 1rem; line-height: 1;">LOG</div>
+                    <div style="font-size: 0.75rem; color: #666;">(private)</div>
+                </div>
+            </div>
+
+            <div style="font-size: 1.2rem; line-height: 0.8; color: #000; font-weight: 900; margin: 0.1rem 0; width: 3rem; text-align: center;">↓</div>
+
+            <!-- Step 5 -->
+            <div style="display: flex; align-items: center; gap: 1rem; width: 100%;">
+                <div style="display: flex; flex-direction: column; align-items: center; min-width: 3rem;">
+                    <span style="font-size: 0.7rem; font-weight: bold; margin-bottom: 0.1rem;">5</span>
+                    <div style="width: 2.2rem; height: 2.2rem; border: 1.5px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem;">🎯</div>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <div style="font-weight: 800; font-size: 1rem; line-height: 1;">INSERT</div>
+                    <div style="font-size: 0.75rem; color: #666;">(selectively)</div>
+                </div>
+            </div>
+
+            <div style="font-size: 1.2rem; line-height: 0.8; color: #000; font-weight: 900; margin: 0.1rem 0; width: 3rem; text-align: center;">↓</div>
+
+            <!-- Step 6 -->
+            <div style="display: flex; align-items: center; gap: 1rem; width: 100%;">
+                <div style="display: flex; flex-direction: column; align-items: center; min-width: 3rem;">
+                    <span style="font-size: 0.7rem; font-weight: bold; margin-bottom: 0.1rem;">6</span>
+                    <div style="width: 2.2rem; height: 2.2rem; border: 1.5px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem;">👁️</div>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <div style="font-weight: 800; font-size: 1rem; line-height: 1;">SURFACE</div>
+                    <div style="font-size: 0.75rem; color: #666;">(stability)</div>
+                </div>
+            </div>
+
+            <div style="font-size: 1.2rem; line-height: 0.8; color: #000; font-weight: 900; margin: 0.1rem 0; width: 3rem; text-align: center;">↓</div>
+
+            <!-- Step 7 -->
+            <div style="display: flex; align-items: center; gap: 1rem; width: 100%;">
+                <div style="display: flex; flex-direction: column; align-items: center; min-width: 3rem;">
+                    <span style="font-size: 0.7rem; font-weight: bold; margin-bottom: 0.1rem;">7</span>
+                    <div style="width: 2.2rem; height: 2.2rem; border: 1.5px solid #333; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem;">⏻</div>
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <div style="font-weight: 800; font-size: 1rem; line-height: 1;">EXIT</div>
+                    <div style="font-size: 0.75rem; color: #666;">(reset)</div>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Screen 10: Mental Checklist -->
     <section class="card" style="--title-color: var(--color-9);">
-        <div class="card-header" style="background: var(--color-9);">
-            <i>📋</i> 9. CHECKLIST
+        <div class="card-header" style="background: var(--color-9); display: flex; flex-direction: column; align-items: flex-start; padding: 0.8rem 1.2rem;">
+            <div style="display: flex; align-items: center; gap: 0.8rem; width: 100%;">
+                <i style="background: none; font-size: 1.8rem; width: auto; height: auto;">📋</i>
+                <div style="display: flex; flex-direction: column;">
+                    <span style="font-size: 1.1rem; line-height: 1.1;">9. MENTAL CHECKLIST</span>
+                    <span style="font-size: 0.75rem; opacity: 0.9; font-weight: normal; margin-top: 0.1rem;">(BEFORE SPEAKING)</span>
+                </div>
+            </div>
         </div>
-        <div class="card-content">
-            <div class="protocol-box" style="background: #f8f9fa;">
-                <div class="list-item"><span class="check">☑</span> Truth or signal?</div>
-                <div class="list-item"><span class="check">☑</span> No-Why zone?</div>
-                <div class="list-item"><span class="check">☑</span> Align or correct?</div>
-                <div class="list-item"><span class="check">☑</span> Shadow Chamber first?</div>
-                <div class="list-item"><span class="check">☑</span> Insert or hold?</div>
-                <div class="list-item"><span class="check">☑</span> Does this need surfacing?</div>
+        <div class="card-content" style="padding: 1.5rem 1.2rem; display: flex; flex-direction: column; align-items: flex-start; gap: 1.5rem;">
+            <div style="display: flex; flex-direction: column; gap: 0.8rem; width: 100%;">
+                <div class="list-item" style="font-size: 1.1rem; align-items: center;">
+                    <span style="font-size: 1.4rem; color: #1a1a1a;">☑</span>
+                    <span>Truth or signal?</span>
+                </div>
+                <div class="list-item" style="font-size: 1.1rem; align-items: center;">
+                    <span style="font-size: 1.4rem; color: #1a1a1a;">☑</span>
+                    <span>No-Why zone?</span>
+                </div>
+                <div class="list-item" style="font-size: 1.1rem; align-items: center;">
+                    <span style="font-size: 1.4rem; color: #1a1a1a;">☑</span>
+                    <span>Align or correct?</span>
+                </div>
+                <div class="list-item" style="font-size: 1.1rem; align-items: center;">
+                    <span style="font-size: 1.4rem; color: #1a1a1a;">☑</span>
+                    <span>Shadow Chamber first?</span>
+                </div>
+                <div class="list-item" style="font-size: 1.1rem; align-items: center;">
+                    <span style="font-size: 1.4rem; color: #1a1a1a;">☑</span>
+                    <span>Insert or hold?</span>
+                </div>
+                <div class="list-item" style="font-size: 1.1rem; align-items: center;">
+                    <span style="font-size: 1.4rem; color: #1a1a1a;">☑</span>
+                    <span>Does this need surfacing?</span>
+                </div>
             </div>
             
-            <div style="text-align: center; margin-top: 2rem;">
-                <svg width="80" height="80" viewBox="0 0 100 100" opacity="0.1">
-                    <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="2"/>
-                    <path d="M30 50 L45 65 L70 35" fill="none" stroke="currentColor" stroke-width="5"/>
-                </svg>
+            <div style="position: relative; width: 80px; height: 90px; display: flex; align-items: center; justify-content: center; opacity: 0.8; margin-left: 0.5rem;">
+                <span style="font-size: 5rem; position: absolute; left: 0;">👤</span>
+                <div style="position: absolute; top: 15px; left: 45px; background: white; border-radius: 50%; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; border: 2px solid #1a1a1a;">
+                    <span style="font-size: 1rem; font-weight: bold;">✓</span>
+                </div>
             </div>
+        </div>
+        
+        <div style="margin-top: auto; padding: 1rem; border-top: 1px solid #eee; text-align: center; color: #666; font-size: 0.8rem; font-weight: bold; letter-spacing: 0.1rem;">
+            OPERATING SYSTEM V1.2
         </div>
     </section>
 </div>
