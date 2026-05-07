@@ -1,0 +1,22 @@
+{
+  "name": "OS Carousel v1.1",
+  "short_name": "OS Carousel",
+  "description": "A mental model Operating System PWA.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#121212",
+  "theme_color": "#121212",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192/000000/FFFFFF?text=OS",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://via.placeholder.com/512/000000/FFFFFF?text=OS",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
