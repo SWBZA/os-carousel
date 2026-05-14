@@ -1,4 +1,4 @@
-const CACHE_NAME = 'os-carousel-v1.4';
+const CACHE_NAME = 'os-carousel-v1.5';
 const ASSETS = [
   './',
   './index.html',
