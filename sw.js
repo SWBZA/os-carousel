@@ -1,9 +1,12 @@
-const CACHE_NAME = 'os-carousel-v1.5';
+const CACHE_NAME = 'os-carousel-v1.6';
 const ASSETS = [
   './',
   './index.html',
   './manifest.json',
-  './sw.js'
+  './sw.js',
+  './icon-192.png',
+  './icon-512.png',
+  './icon-maskable-512.png'
 ];
 
 // Install: Cache assets and force immediate activation
